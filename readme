@@ -1,0 +1,4 @@
+for Fargate profile. Cluster - fargate-app. 
+The Amazon ECS service 'far-app' should exist
+check cloudwatch has log group called /ecs/app1 . the service will not create one
+delete iam policies related to codebuild (filter by ap-southeast-2)
